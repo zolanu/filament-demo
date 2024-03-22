@@ -21,7 +21,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://say.vercel.app",
+        "APP_URL": "https://zolanu-filament.vercel.app",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -34,5 +34,6 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
-    "buildCommand": "echo 'skipping build with vercel.json'"
+    "buildCommand": "echo 'skipping build with vercel.json'",
+    "regions": ["bom1"]
 }
